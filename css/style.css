@@ -55,3 +55,22 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
 }
+
+/* Sección principal */
+
+main {
+    /* border: 2px solid blue; */
+    margin-top: 150px;
+    text-align: center;
+    max-width: 100%;
+}
+main .main-logo{
+    /* border: 2px solid rgb(72, 72, 82); */
+    margin: 0 auto; /*Nos centra*/
+}
+
+main .main-logo img{
+    height: 92;
+    width: 272px;
+    
+}
