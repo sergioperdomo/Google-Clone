@@ -66,11 +66,41 @@ main {
 }
 main .main-logo{
     /* border: 2px solid rgb(72, 72, 82); */
+    width: 980px;
+    height: 170px;
     margin: 0 auto; /*Nos centra*/
+    margin-bottom: 35px;
 }
 
 main .main-logo img{
-    height: 92;
-    width: 272px;
+    margin: 0 auto;
+    /* max-height: 100%;
+    max-width: 100%; */
+    /* object-fit: contain; */
+    /* height: 92; */
+    /* object-position: center bottom; */
     
+}
+
+/* Sección input */
+
+main .main-input{
+    width: 582px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: inherit;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input-container input{
+    width: 500px;
+    height: 40px;
+    border: none;
+    outline: none;
 }
